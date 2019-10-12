@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#fd0001"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bhromon_logo" />
+
+                <LinearLayout
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center"
+                        android:text="Terms of use"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center"
+                        android:text="(ব্যবহারের শর্তাবলী)"
+                        android:textColor="#ffffff"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/angle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-9dp"
+                android:background="@drawable/dow" />
+
+            <LinearLayout
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/angle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center|start"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="ব্যবহারের শর্তাবলী :"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center|start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="ব্যবহারের শর্তাবলী :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:text="১। ভ্রমণ বাংলাদেশের কাজ হচ্ছে তৃতীয় পক্ষ হিসেবে ব্যবহারকারী এবং চালকদের ভিতর সহজ যোগাযোগ ঘটিয়ে দেওয়া।
+\n\n২। ভ্রমণের কিছু নির্দিষ্ট প্যাকেজ অফার রয়েছে, বিভিন্ন পর্যটন এলাকার পাশাপাশি প্রবাসীদের যে অফার করা এই প্যাকেজগুলোতে বিভিন্ন প্রকারের গাড়ীর জন্যে আলাদাভাবে টাকার পরিমান উল্লেখ করা আছে। প্যাকেজগুলো একদাম এবং কোন অবস্থাতেই দরদাম করা যাবে না।
+\n\n৩। পর্যটন এলাকাসমূহের জন্যে অ্যাপেই কল করার ব্যবস্থা রাখা হয়েছে। ব্যবহারকারীরা চাইলে ফর্ম পূরণ না করে কল করেও সমগ্র প্রক্রিয়া সম্পন্ন করতে পারবেন। তবে স্থানীয় অঞ্চলসমূহের জন্যে ফর্ম পূরণ করে ই-মেইল করা বাধ্যতামূলক।
+\n\n৪। স্থানীয় অঞ্চলসমূহের জন্যে ই-মেইল পাওয়ার ঘন্টাখানেকের ভিতরেই ফোন করে টাকার পরিমাণ জানিয়ে সবকিছু পাকাপাকি করা হবে।
+\n\n৫। পর্যটন এলাকাসমূহের ক্ষেত্রেও ই-মেইল করলে যথাশীঘ্র যোগাযোগ করা হবে।
+\n\n৬। যাত্রাপথে কোনও অনাকাঙ্ক্ষিত ঘটনায় চালক ও ব্যবহারকারীর ভূমিকা অনুযায়ী উক্ত ঘটনার দায়ভার তাদের ভিতর বণ্টিত হবে। এতে ভ্রমণ কর্তৃপক্ষের কোন দায়ী থাকবে না।
+\n\n৭। চালকের বিষয়ে কোনও অভিযোগ থাকলে obhijogbhromon@gmail.com ঠিকানায় মেইল করে জানিয়ে দিলে ভ্রমণ কর্তৃপক্ষ যথাযথ ব্যবস্থা নেবে।
+\n\n৮। ভ্রমণের সময় সকাল ১০টা থেকে বিকেল ৫টা। সেই অনুযায়ী ভাড়ার হার তালিকায় দেওয়া হয়েছে। যদিও ব্যবহারকারীদের সুবিধার জন্যে এটা কিছুটা শিথিল রাখা হবে। সকাল থেকে রাত পর্যন্ত প্রয়োজন হয় তবে অতিরিক্ত ৳৫০০ ফী দিতে হবে। এই ব্যাপারগুলি আগে থেকে পরিষ্কার রাখতে ব্যবহারকারীদের অনুরোধ করা যাচ্ছে।
+\n\n৯। নির্দিষ্ট গাড়ীর বাইরে মিনিবাস বা বিভিন্ন বিলাসবহুল গাড়িও দেওয়া হয়ে থাকে। সেক্ষেত্রে ২ দিন আগে বুকিং দিতে হবে।"
+                        android:textColor="#848484"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="25dp"
+                        android:text="Terms of uses:"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:text="1. The goal of Bhromon Bangladesh is to establish a network between users/tourists and vehicle drivers.
+\n\n2. Bhromon has a few package offers for a number of tourist sites as well as for people living abroad. The packages offered have listed fares according to the choice of cars. The stated prices are fixed and non-negotiable.
+\n\n3. For tourist areas, users can call from the app itself. Users can opt to complete the entire process via phone call instead of filling out a form, but for local areas, you must fill out the form and then e-mail.
+\n\n4. For local areas, users will be notified with a confirmation along with the amount of fare via phone call within an hour of receiving the e-mail.
+\n\n5. In case of tourist areas, users will be contacted as soon as possible as well.
+\n\n6. The driver and passengers will bear the responsibility of any unpleasant incident en route according to their respective roles in it. Bhromon will not be held accountable.
+\n\n7. Bhromon will take measures in case of any complaints against a driver sent to obhijogbhromon@gmail.com.
+\n\n8. The time period of service is from 10AM in the morning till 5PM in the evening, and fare rates are provided on the list accordingly. Though it will be kept lenient for the ease of the user. If the service is to be extended until night, an additional fee of ৳500 will have to be paid. Users are requested to be clear on these beforehand.
+\n\n9. Along with the assigned rides, minibuses and luxury cars are also provided by Bhromon. A 2-days advance booking has to be made for them.\n"
+                        android:textColor="#848484"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
